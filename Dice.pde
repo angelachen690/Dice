@@ -42,6 +42,11 @@ class Die //models one single dice cube
     fill(0);
     if (roll_number ==1)
       ellipse (myX + 15,myY + 15,5,5);
+    else if (roll_number == 2){
+      ellipse (myX + 5, myY + 5, 5, 5);
+      ellipse (myX +20,myY+20,5,5);
+    }
+    else
+      System.out.print ("else");
   }
 }
-
